@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sekuya&display=swap');
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: cadetblue;
+  background-image: url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN21qZGdhb3libHFmaHJlcHYzMGxyeTluN3A1b3NveG52MDl2NzBpYiZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/I3JazteAZsWI0/giphy.gif);
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-family: 'Sekuya', Arial, sans-serif;
+  letter-spacing: 1px;
+  color: rgb(255, 255, 255);
+}
+
+img {
+  width: 190px;
+  height: auto;
+}
+
+p {
+  font-size: 1.2rem;
+  max-width: 520px;
+  line-height: 1.6;
+}
+
+h4 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.btn {
+  margin-top: 10px;
+  padding: 12px 30px;
+  background: #ffffff;
+  color: #0f9b8e;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #f2f2f2;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .btn {
+    width: 100%;
+    max-width: 260px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+}
+
+.name-input {
+  padding: 15px;
+  border-radius: 25px;
+  border: none;
+  width: 100%;
+  max-width: 260px;
+  text-align: center;
+  margin-top: 10px;
+}
+
